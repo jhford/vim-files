@@ -16,6 +16,8 @@ assert_repo () {
 }
 
 cp vimrc ~/.vimrc
+
+mkdir -p ~/.fonts
 cp fonts/* ~/.fonts/
 
 # Set up VIM plugins
